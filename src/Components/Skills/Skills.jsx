@@ -22,8 +22,7 @@ const Skills = () => {
       <SkillCard logo={expresslogo} skill={'Express'}/>
       <SkillCard logo={tailwindlogo} skill={'TailwindCSS'}/>
       <SkillCard logo={clogo} skill={'C'}/>
-      <SkillCard logo={pylogo} skill={'python'}/>
-
+      <SkillCard logo={pylogo} skill={'Python'}/>
       <SkillCard logo={javalogo} skill={'Java'}/>
       </div>
     </div>
