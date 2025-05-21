@@ -8,6 +8,7 @@ import doitLogo from '../../assets/projects/doit.png'
 import f1timerLogo from '../../assets/projects/f1timer.png'
 import calkulateLogo from '../../assets/projects/calkulate.png'
 import drummerLogo from '../../assets/projects/drummer.png'
+import tempchatLogo from '../../assets/projects/tempchat.png'
 
 
 
@@ -17,6 +18,13 @@ const Projects = () => {
     <div className='md:pl-16 pl-14 bg-emerald-900 min-h-screen h-full w-full flex flex-col items-center py-10 gap-5'>
       <h1 className='text-6xl text-white'>Projects</h1>
       <div className='md:m-10 flex justify-center items-center flex-wrap gap-5'>
+      <ProjectCard 
+        projectName={"Tempchat"}
+        projectDesc={"A Websocket based Temporary Chatroom"}
+        deployURL={"https://tempchat-one.vercel.app/"}
+        githubURL={"https://github.com/ss-karthik/tempchat"}
+        logo={tempchatLogo}
+      />
       <ProjectCard 
         projectName={"Typetester"}
         projectDesc={"A simple typing speed tester - 20 words, 5 letters each"}
