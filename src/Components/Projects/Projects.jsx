@@ -11,6 +11,8 @@ import drummerLogo from '../../assets/projects/drummer.png'
 import tempchatLogo from '../../assets/projects/tempchat.png'
 import habitopiaLogo from '../../assets/projects/Habitopia.jpeg'
 import pratibimbLogo from '../../assets/projects/Pratibimb.png'
+import theDiaryLogo from '../../assets/projects/thediary.png'
+import rinonLogo from '../../assets/projects/rinon.png';
 
 
 
@@ -19,6 +21,20 @@ const Projects = () => {
     <div className='md:pl-16 pl-14 bg-emerald-900 min-h-screen h-full w-full flex flex-col items-center py-10 gap-5'>
       <h1 className='text-6xl text-white'>Projects</h1>
       <div className='md:m-10 flex justify-center items-center flex-wrap gap-5'>
+        <ProjectCard 
+        projectName={"Rinon"}
+        projectDesc={"AI Based Kidney Health Analyser. Risk of Stone and Identification of Stone, it's Size and Location."}
+        deployURL={"https://rinon-z4kl.vercel.app/"}
+        githubURL={"https://github.com/Proudprogamer/Rinon/commits/main/?author=ss-karthik"}
+        logo={rinonLogo}
+      />
+        <ProjectCard 
+        projectName={"The Diary"}
+        projectDesc={"A barebones digital diary where you can stash your thoughts. Habits and Todos too."}
+        deployURL={"https://the-diary-omega.vercel.app/"}
+        githubURL={"https://github.com/ss-karthik/the-diary"}
+        logo={theDiaryLogo}
+      />
         <ProjectCard 
         projectName={"Pratibimb"}
         projectDesc={"A Health Tracking system based on BMI measurements from an IOT Device + AI medical report analysis"}
